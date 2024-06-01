@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(Jele_23_blass_kornung.png);
+    background-image: url(Jele_23_blass_kornung_web.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -74,9 +74,6 @@ footer{
     body{
         padding-top: 15px;
     }
-    /* h1{
-        margin-top: 15px;
-    } */
  }
 
 @media (min-width: 768px) { 
@@ -104,16 +101,10 @@ footer{
     body{
         padding-top: 40px;
     }
-    /* h1{
-        margin-top: 40px;
-    }   */
  }
 
 @media (min-width: 1400px) { 
     body{
         padding-top: 120px;
     }
-    /* h1{
-        margin-top: 120px;
-    } */
  }
