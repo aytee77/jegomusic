@@ -6,6 +6,9 @@
 
     color: #7B9897;
 }
+html{
+    height: 100vh;
+}
 
 body{
     background-image: url(Jele_23_blass_kornung_web.png);
@@ -65,7 +68,7 @@ footer{
 
 .fotoClaim{
     line-height: 60px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .row{
@@ -97,6 +100,9 @@ footer{
     }
     p{
         font-size: 24px;
+    }
+    .fotoClaim{
+        font-size: 18px;
     }
  }
 
