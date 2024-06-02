@@ -19,6 +19,7 @@ body{
     height: 100vh;
 
     padding-top: 15px;
+    overflow: hidden;
 }
 
 h1{
