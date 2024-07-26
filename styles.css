@@ -42,6 +42,12 @@ p{
     font-size: 18px;
     margin-bottom: 0;
 }
+
+.modal p{
+    text-shadow: none;
+    font-size: 16px;
+    color: #555;
+}
 .some{
     float:right;
 }
@@ -77,9 +83,47 @@ footer{
   margin-left: 0;
 }
 
+.spendeButton{
+    position: fixed;
+    bottom: 60px;
+    left: 10px;
+    background-color:#B069FF;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 14px #B069FF;
+    cursor: pointer;
+}
+.spendeButton span{
+    color: #000;
+    font-size: 14px;
+}
+
+.modal button{
+    width: 20px;
+    position: absolute;
+    right: 4px;
+    top: 0px;
+    z-index: 10;
+}
+.modal-content{
+    background-color: #dfb4ff;
+}
+.close span{
+    color: #000;
+    text-shadow: none;
+}
 @media (min-width: 576px) { 
     body{
         padding-top: 15px;
+    }
+    .spendeButton{
+        position: relative;
+        bottom: 0;
+        left: 0;
     }
  }
 
