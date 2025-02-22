@@ -4,14 +4,21 @@
     font-weight: 400;
     font-style: normal;
 
-    color: #7B9897;
+    color: #e3e1d2;
 }
 html{
     height: 100vh;
 }
 
+.titel-img{
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    z-index: -1;
+}
+
 body{
-    background-image: url(Jele_23_blass_kornung_web.png);
+    background-image: url(Jele_44_mit_rauschen.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -26,27 +33,28 @@ h1{
     font-weight: 600;
     color: #B069FF;
     font-size: 62px;
-    text-shadow: 0 0 10px #B069FF;
+    /* text-shadow: 0 0 10px #B069FF; */
     text-align: center;
 }
 a{
-    text-decoration: none;
-    color: #7B9897;
+    text-decoration: underline;
+    color: #e3e1d2;
 }
 a:hover{
     text-decoration: none;
-    color: #7B9897;
+    color: #e3e1d2;
 }
 p{
-    text-shadow: -1px -1px 0px rgba(255, 0, 255, .5), 1px 1px 0px rgba(0, 255, 255, .5);
-    font-size: 18px;
+    /* text-shadow: -1px -1px 0px rgba(255, 0, 255, .5), 1px 1px 0px rgba(0, 255, 255, .5); */
+    text-shadow: 2px 2px 0px #232323 ;
+    font-size: 16px;
     margin-bottom: 0;
 }
 
 .modal p{
     text-shadow: none;
     font-size: 16px;
-    color: #555;
+    color: #e3e1d2;
 }
 .some{
     float:right;
@@ -65,17 +73,21 @@ footer{
 }
 
 .booking{
-    margin-top: 40vh;
+    margin-top: 35vh;
+    text-align: right;
+}
+
+.eprelease{
     text-align: right;
 }
 
 .upcoming{
-    margin-top: 2vh;
+    margin-top: 75px;
 }
 
 .fotoClaim{
     line-height: 60px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .row{
@@ -87,19 +99,20 @@ footer{
     position: fixed;
     bottom: 60px;
     left: 10px;
-    background-color:#B069FF;
-    height: 100px;
-    width: 100px;
+    background-color:#cb5e73;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     text-align: center;
-    box-shadow: 0 0 14px #B069FF;
+    box-shadow: 0 0 14px #cb5e73;
     cursor: pointer;
 }
 .spendeButton span{
-    color: #000;
-    font-size: 14px;
+    color: #e3e1d2;
+    font-size: 10px;
+    width: 100%;
 }
 
 .modal button{
@@ -110,10 +123,10 @@ footer{
     z-index: 10;
 }
 .modal-content{
-    background-color: #dfb4ff;
+    background-color: #cb5e73;
 }
 .close span{
-    color: #000;
+    color: #e3e1d2;
     text-shadow: none;
 }
 @media (min-width: 576px) { 
@@ -139,15 +152,28 @@ footer{
         background-color: black;
     }
 
+    .spendeButton{
+        height: 120px;
+        width: 120px;
+        margin-top: -50px;
+    }
+
+    .spendeButton span{
+        font-size: 16px;
+    }
+
     .booking{
         margin-top: 20vh;
         text-align: right;
     }
     p{
-        font-size: 24px;
+        font-size: 26px;
     }
     .fotoClaim{
-        font-size: 18px;
+        font-size: 14px;
+    }
+    .titel-img{
+        top: 10vh;
     }
  }
 
